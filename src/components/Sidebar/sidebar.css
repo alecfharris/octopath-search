@@ -1,0 +1,49 @@
+.sidebar {
+    background-color: white;
+    border-right: solid 1px;
+    border-color: gray;
+    min-height: 100vh;
+    text-align: center;
+    box-shadow: 1px 0px gray;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.num-input{
+    width: 35%;
+    margin: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.name-input{
+    width: 85%;
+    margin: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.property-select{
+    margin: 3px;
+    font-size: 14px !important;
+    /* font-size: 1vw !important; */
+}
+
+.search-btn{
+    margin-bottom: 15px;
+    /* font-size: 1.2vw; */
+}
+
+input, select{
+    border-radius: 5px;
+    border-color: gray !important;
+    border: solid 1px;
+    text-align: center;
+    font-size: 12px !important;
+    /* font-size: 1vw !important; */
+}
+
+.menu-item{
+    margin-bottom: 5px;
+    padding: 8px;
+    /* font-size: 1.2vw; */
+}

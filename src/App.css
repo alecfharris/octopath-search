@@ -31,3 +31,29 @@
     transform: rotate(360deg);
   }
 }
+
+.container-margin{
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
+  margin-left: 0rem !important;
+  margin-right: 0rem !important;
+}
+
+ .page-container{
+  width: 100vw;
+  overflow: hidden;
+}
+
+.weap-comp-container-outer{
+  height: 92vh;
+  width: 45vw !important;
+  max-width: 100%;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.weap-comp-container-inner{
+  height: 100%;
+  max-width: 100%;
+  overflow-y: auto;
+}
