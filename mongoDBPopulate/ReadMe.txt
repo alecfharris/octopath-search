@@ -1,0 +1,2 @@
+This folder is the list of weapons in the game, contained in a mongodb query. 
+Feel free to take this list and use it to create your own database, although I hope you will instead choose to contribute to this project.
