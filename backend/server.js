@@ -9,7 +9,7 @@ const dotenv = require("dotenv");
 
 dotenv.config();
 
-const url = process.env.ATLAS_URI;
+const dbUrl = process.env.MONGO_URI;
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -18,7 +18,7 @@ app.use('/weapons', weaponsRoutes);
 
 
 
-mongoose.connect(url, { useNewUrlParser: true });
+mongoose.connect(dbUrl, { useNewUrlParser: true });
 const connection = mongoose.connection;
 connection.once('open', function () {
     console.log("MongoDB database connection established successfully");
