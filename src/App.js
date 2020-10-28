@@ -6,6 +6,7 @@ import NavTabs from './components/NavTabs/navTabs.js';
 
 function App() {
   return (
+    <>
     <div className='container-fluid container-margin'>
       <div className = 'row-fluid'>
       <NavTabs />
@@ -15,6 +16,8 @@ function App() {
           <Weapons />
       </div>
     </div>
+    
+  </>
   );
 }
 
